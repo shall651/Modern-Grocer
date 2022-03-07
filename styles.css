@@ -1,0 +1,122 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    font-family: 'Varela Round', sans-serif;
+    box-sizing: border-box;
+}
+
+.content {
+    margin-top: 100px;
+    /* position: fixed; */
+}
+
+/* Header styling */
+
+/* .navbar-fixed-top {
+    height: auto;
+    background-color: white;
+} */
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+}
+
+.navlinkscontainer {
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 700px;
+    padding: 20px 0px;
+}
+
+/* Navigation links in header bar styling */
+.navlinks {
+    color: rgb(46, 46, 46);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navlinks:hover {
+    color: #b7dde2;
+}
+
+@media (max-width:810px){
+    .navlinks{
+        font-size: 80%;
+        justify-content: center;
+    }
+    .container{
+        padding: 5px;
+    }
+    .sitelogo {
+        width: 160px;
+    }
+}
+/* Above changes sizing when dropping to ipad width screen */
+/* End of Navigation links in header bar styling */
+
+.signin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    gap: 10%;
+}
+/* End of Header styling */
+
+
+/* Styling for milkround banner*/
+.milkround-banner-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+    /* margin: 3%; */
+}
+
+.milkround-text-container {
+    position: fixed;
+    left: 100px;
+    color: rgb(37, 37, 37);
+    font-weight: 600;
+    font-size: 1.5em;
+}
+/* end milkround styling */
+
+/* styling for thin banner sections */
+.bottles-usage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 30px;
+    background-color: #adced8;
+    color: #365369;
+    font-size: 1.5em;
+}
+
+.bin-usage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 30px;
+    background-color: #3d5367;
+    color: white;
+    font-size: 1.5em;
+}
+
+
+
+
+/* PROGRESS UPON REOPEN: currently stuck at making the join our milkround stay where it is over the image */
