@@ -63,6 +63,18 @@ html,body
     }
 }
 /* Above changes sizing when dropping to ipad width screen */
+@media (max-width:710px){
+    .navlinks{
+        font-size: 80%;
+        justify-content: center;
+    }
+    .container{
+        padding: 5px;
+    }
+    .sitelogo {
+        width: 160px;
+    }
+}
 /* End of Navigation links in header bar styling */
 
 .signin {
