@@ -11,25 +11,20 @@ html,body
 
 .content {
     margin-top: 100px;
-    /* position: fixed; */
 }
 
 /* Header styling */
-
-/* .navbar-fixed-top {
-    height: auto;
-    background-color: white;
-} */
 
 .container {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 15px;
+    padding: 25px;
     position: fixed;
     top: 0;
     width: 100%;
     background-color: white;
+    z-index: 3;
 }
 
 .navlinkscontainer {
@@ -75,7 +70,6 @@ html,body
         width: 160px;
     }
 }
-/* End of Navigation links in header bar styling */
 
 .signin {
     display: flex;
@@ -89,24 +83,24 @@ html,body
 
 /* Styling for milkround banner*/
 .milkround-banner-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+    height: 500px;
+    padding: 0;
+    background-image: url("https://themodernmilkman.co.uk/img/images/new-home-ban-test.jpg");
+    background-size: cover;
     text-align: center;
-    /* margin: 3%; */
+    width: 100vw;
 }
 
 .milkround-text-container {
-    /* position: relative; */
-    margin: auto 0;
-    left: 100px;
     color: rgb(37, 37, 37);
     font-weight: 600;
-    font-size: 1.5em;
-    z-index: 3;
+    font-size: 30px;
+    padding-top: 150px;
 }
 /* end milkround styling */
+
+
+
 
 /* styling for thin banner sections */
 .bottles-usage {
@@ -130,7 +124,3 @@ html,body
     color: white;
     font-size: 1.5em;
 }
-
-/* CHECKING GIT SOURCE CONTROL [PUSH TO SERVER] */
-
-/* PROGRESS UPON REOPEN: currently stuck at making the join our milkround stay where it is over the image */
